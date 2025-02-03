@@ -1,26 +1,21 @@
 {
-  "name": "example-basic",
+  "name": "about-me",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vinxi dev",
-    "build": "vinxi build",
-    "start": "vinxi start",
-    "version": "vinxi version"
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@solidjs/meta": "^0.29.4",
-    "@solidjs/router": "^0.15.0",
-    "@solidjs/start": "^1.0.11",
-    "solid-js": "^1.9.2",
-    "vinxi": "^0.4.3"
-  },
-  "overrides": {
-    "vite": "5.4.10"
-  },
-  "engines": {
-    "node": ">=18"
+    "vue": "^3.5.13"
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5",
+    "vue-tsc": "^2.2.0"
   }
 }

@@ -3,3 +3,4 @@ node_modules
 .vinxi/**
 .output
 .output/**
+dist
